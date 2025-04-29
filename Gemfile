@@ -12,12 +12,12 @@ end
 gem 'refinerycms-i18n', github: 'refinery/refinerycms-i18n', branch: 'master'
 
 # Add support for refinerycms-acts-as-indexed
-gem 'refinerycms-acts-as-indexed', ['~> 4.0', '>= 4.0.0'],
+gem 'refinerycms-acts-as-indexed', '~> 4.0', '>= 4.0.0',
   git: 'https://github.com/refinery/refinerycms-acts-as-indexed',
   branch: 'master'
 
 # Add the default visual editor, for now.
-gem 'refinerycms-wymeditor', ['~> 3.0', '>= 3.0.0']
+gem 'refinerycms-wymeditor', '~> 3.0', '>= 3.0.0'
 
 # Database Configuration
 unless ENV['CI']
